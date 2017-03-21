@@ -1,0 +1,23 @@
+[
+	{
+		"id": "1",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "L’ennui de l’élection, c’est qu’on élit les gens qui ont les qualités nécessaires pour se faire élire, lesquelles sont généralement complètement opposées à celles dont on a besoin pour gouverner.", 
+		"source": "Le Roi, l'éternelle solution",
+		"date": "1997"
+	},
+	{
+		"id": "2",
+		"auteur": "Jean Raspail",
+		"contenu": "Le principe royal ne repose pas sur la foi que l'on a ou que l'on n'a pas en lui. Il importe peu qu'on y croie ou que l'on n'y croie plus, et que les incrédules soient innombrables. Cela ne peut se peser. Dieu est Dieu, et le roi est le roi. ", 
+		"source": "Sire",
+		"date": "1991"
+	},
+	{
+		"id": "3",
+		"auteur": "Joseph de Maistre",
+		"contenu": "Le christianisme a été prêché par des ignorants et cru par des savants, et c’est en quoi il ne ressemble à rien de connu.”", 
+		"source": "Considérations sur la France",
+		"date": "1797"
+	}
+]

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Dieu et le Roy en France</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+<h1>Dieu et le Roy en France</h1>
+<h2>Citations et considérations diverses sur la Chrétienté et la Royauté en France</h2>
+</body>
+<script>
+$.getJSON( "data.json", function( data ) {
+  var items = [];
+  $.each( data, function( key, value ) {
+		items.push( "<li id='" + value.id + "'><a href=\"./post.html#" + value.id + "\">« " + value.contenu + " »</a></br>" + value.source + " - <b>" + value.auteur + "</b></li></br>" );
+  });
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "body" );
+});
+</script>
+</html>
