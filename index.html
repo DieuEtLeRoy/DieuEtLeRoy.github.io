@@ -3,23 +3,33 @@
 <head>
   <meta charset="utf-8">
   <title>Dieu et le Roy en France</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 </head>
-<body>
+<body id="content">
 <h1>Dieu et le Roy en France</h1>
 <h2>Citations et considérations diverses sur la Chrétienté et la Royauté en France</h2>
 </body>
 <script>
-$.getJSON( "data.json", function( data ) {
-  var items = [];
-  $.each( data, function( key, value ) {
+
+var request = new XMLHttpRequest();
+request.open('GET', 'data.json', true);
+
+request.onload = function() {
+  if (request.status >= 200 && request.status < 400) {
+    // Success!
+	var data = JSON.parse(request.responseText);
+	var parent = document.getElementById("content");
+	var child = document.createElement("span");
+	var items = [];
+	
+	data.forEach(function(value) {
 		items.push( "<li id='" + value.id + "'><a href=\"./post.html#" + value.id + "\">«&#xA0;" + value.contenu + "&#xA0;»</a></br>" + value.source + " - <b>" + value.auteur + "</b></li></br>" );
-  });
-  $( "<ul/>", {
-    "class": "my-new-list",
-    html: items.join( "" )
-  }).appendTo( "body" );
-});
+	});
+	child.innerHTML = items.join( "" );
+	parent.appendChild(child);
+  }
+};
+
+request.send();
 </script>
 </html>
