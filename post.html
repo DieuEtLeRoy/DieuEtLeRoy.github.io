@@ -18,7 +18,7 @@ $.getJSON( "data.json", function( data ) {
 	var items = [];
 	$.each( data, function( key, value ) {
 		if("#" + value.id == link){
-			items.push( "<li id='" + value.id + "'>« " + value.contenu + " »</br>" + value.source + " - <b>" + value.auteur + "</b></li>" );
+			items.push( "<li id='" + value.id + "'>«&#xA0;" + value.contenu + "&#xA0;»</br>" + value.source + " - <b>" + value.auteur + "</b></li>" );
 		}
 	});
 	$( "<ul/>", {
