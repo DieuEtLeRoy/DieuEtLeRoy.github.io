@@ -14,7 +14,7 @@
 $.getJSON( "data.json", function( data ) {
   var items = [];
   $.each( data, function( key, value ) {
-		items.push( "<li id='" + value.id + "'><a href=\"./post.html#" + value.id + "\">« " + value.contenu + " »</a></br>" + value.source + " - <b>" + value.auteur + "</b></li></br>" );
+		items.push( "<li id='" + value.id + "'><a href=\"./post.html#" + value.id + "\">«&#xA0;" + value.contenu + "&#xA0;»</a></br>" + value.source + " - <b>" + value.auteur + "</b></li></br>" );
   });
   $( "<ul/>", {
     "class": "my-new-list",
