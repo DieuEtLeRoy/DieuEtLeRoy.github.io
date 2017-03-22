@@ -9,15 +9,29 @@
 	{
 		"id": "2",
 		"auteur": "Jean Raspail",
-		"contenu": "Le principe royal ne repose pas sur la foi que l'on a ou que l'on n'a pas en lui. Il importe peu qu'on y croie ou que l'on n'y croie plus, et que les incrédules soient innombrables. Cela ne peut se peser. Dieu est Dieu, et le roi est le roi. ", 
+		"contenu": "Le principe royal ne repose pas sur la foi que l'on a ou que l'on n'a pas en lui. Il importe peu qu'on y croie ou que l'on n'y croie plus, et que les incrédules soient innombrables. Cela ne peut se peser. Dieu est Dieu, et le roi est le roi.", 
 		"source": "Sire",
 		"date": "1991"
 	},
 	{
 		"id": "3",
 		"auteur": "Joseph de Maistre",
-		"contenu": "Le christianisme a été prêché par des ignorants et cru par des savants, et c’est en quoi il ne ressemble à rien de connu.”", 
+		"contenu": "Le christianisme a été prêché par des ignorants et cru par des savants, et c’est en quoi il ne ressemble à rien de connu.", 
 		"source": "Considérations sur la France",
 		"date": "1797"
-	}
+	},
+	{
+		"id": "4",
+		"auteur": "Père Michel Viot",
+		"contenu": "Être Roi par la grâce de Dieu ne transformait pas l’Oint du Seigneur en despote ou en créature supérieure. Bien au contraire, Il devait être le plus humble et le plus grand des débiteurs de Dieu, qui demande toujours beaucoup à ceux à qui il a beaucoup donné.", 
+		"source": "Homélie du 21 janvier 2017",
+		"date": "2017"
+	},
+	{
+		"id": "5",
+		"auteur": "Louis XVI",
+		"contenu": "Je désire que mon sang ne retombe jamais sur la France", 
+		"source": "Dernières paroles",
+		"date": "1793"
+	}		
 ]
