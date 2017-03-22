@@ -15,21 +15,22 @@ var request = new XMLHttpRequest();
 request.open('GET', 'data.json', true);
 
 request.onload = function() {
-  if (request.status >= 200 && request.status < 400) {
-    // Success!
-	var data = JSON.parse(request.responseText);
-	var parent = document.getElementById("content");
-	var child = document.createElement("span");
-	var items = [];
-	var link = location.hash;
-	
-	data.forEach(function(value) {
-		if("#" + value.id == link){
-			items.push( "<li id='" + value.id + "'>«&#xA0;" + value.contenu + "&#xA0;»</br>" + value.source + " - <b>" + value.auteur + "</b></li>" );
-		}
-	});
-	child.innerHTML = items.join( "" );
-	parent.appendChild(child);
+	if (request.status >= 200 && request.status < 400) {
+		// Success!
+		var data = JSON.parse(request.responseText);
+		var parent = document.getElementById("content");
+		var child = document.createElement("span");
+		var items = [];
+		var link = location.hash;
+
+		data.forEach(function(value) {
+			if("#" + value.id == link){
+				items.push( "<li id='" + value.id + "'>«&#xA0;" + value.contenu + "&#xA0;»</br>" + value.source + " - <b>" + value.auteur + "</b></li>" );
+			}
+		});
+		child.innerHTML = items.join( "" );
+		parent.appendChild(child);
+	}
 };
 
 request.send();
