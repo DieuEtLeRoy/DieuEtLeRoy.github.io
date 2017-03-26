@@ -33,5 +33,89 @@
 		"contenu": "Je désire que mon sang ne retombe jamais sur la France", 
 		"source": "Dernières paroles",
 		"date": "1793"
-	}		
+	},
+	{
+		"id": "6",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "Ce sont souvent les mêmes qui veulent la mort des innocents et la survie des coupables.", 
+		"source": "Le professeur d’histoire",
+		"date": "1985"
+	},
+	{
+		"id": "7",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "Le degré de civilisation d'une société se mesure au respect que les hommes y montrent aux femmes", 
+		"source": "Le professeur d’histoire",
+		"date": "1985"
+	},
+	{
+		"id": "8",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "Quand des étrangers en armes marchent sur le sol de votre pays, il n'y a pas moyen de ne pas les tuer. Au contraire, une chose qui n'a pas encore vu la lumière du soleil, qui se trouve à votre merci et qui, loin de vous être étrangère, est tissée de vous...", 
+		"source": "Le professeur d’histoire",
+		"date": "1985"
+	},
+	{
+		"id": "9",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "Le respect des femmes est la clef de ce qui fut notre civilisation.", 
+		"source": "Le professeur d’histoire",
+		"date": "1985"
+	},
+	{
+		"id": "10",
+		"auteur": "Blaise de Monluc",
+		"contenu": "Nos vies et nos biens sont à nos roys, l'âme est à Dieu et l'honneur à nous car sur mon honneur mon roy ne peut rien.", 
+		"source": "Commentaires",
+		"date": "1838"
+	},
+	{
+		"id": "11",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "La beauté de la France, c'est que si tous les Français disparaissaient demain, elle subsisterait dans l'amalgame historique des paysages.", 
+		"source": "Le professeur d’histoire",
+		"date": "1985"
+	},
+	{
+		"id": "12",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "Toute culture est un héritage, et l'héritage implique des morts qui ont testé et des hoirs qui bénéficient.", 
+		"source": "Le professeur d’histoire",
+		"date": "1985"
+	},
+	{
+		"id": "13",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "On naissait où on pouvait, on mourrait où on devait, mais on se faisait sacrer à Reims et enterrer à Saint-Denis", 
+		"source": "Le professeur d’histoire",
+		"date": "1985"
+	},
+	{
+		"id": "14",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "Le mal qu'ont commis la royauté, la noblesse, les corporations, il y aurra toujours assez de redresseurs de torts pour les dénoncer, et cela est peut-être juste. Mais il serait niais de supposer qu'elles n'ont commis que du mal", 
+		"source": "Le professeur d’histoire",
+		"date": "1985"
+	},
+	{
+		"id": "15",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "Notre Seigneur dit qu'on ne peut servir deux maîtres à la fois [...]. Parce que, précise-t-il, on ne pourrait pas les aimer autant l'un que l'autre. Servir suppose donc aimer. On est loin de la lutte des classes.", 
+		"source": "Le professeur d’histoire",
+		"date": "1985"
+	},
+	{
+		"id": "16",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "C'est triste à dire à ceux qui aiment l'égalité, mais l'égalité est stérile. Ce qui est fécond, ce qui crée un appel d'air, ce sont des différences de températures favorisant les mouvements verticaux.", 
+		"source": "Le professeur d’histoire",
+		"date": "1985"
+	},
+	{
+		"id": "17",
+		"auteur": "Vladimir Volkoff",
+		"contenu": "C'est la trinité Voltaire-Robespierre-Napoléon, l'idole de la France chauvine qui prétendait apprendre à vivre aux rois et aux peuples, mais qui ne savait pas distinguer, dans son propre empire colonial, entre les cannibales de l’A.E.F. et les poètes d’Indochine, la France qui a exilé ses princes et persécuté Dreyfus, la France de M. Homais et de (ses) postières hargneuses, la France qui croyait que la fraternité est possible sans la paternité, qu’Abel et Caïn se seraient mieux entendus si, d’un commun accord, ils avaient coupé le cou d’Adam, la France oedipienne de 93.", 
+		"source": "Le professeur d’histoire",
+		"date": "1985"
+	}
 ]
