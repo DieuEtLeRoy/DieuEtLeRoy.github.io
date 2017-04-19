@@ -149,8 +149,15 @@
 	{
 		"id": "22",
 		"auteur": "Abbé Pierre",
-		"contenu": "Je puis être triste de voir un grand parti, qu'il soit socialiste ou libéral, décevoir, dans la peur qu'il a de devoir un jour trancher avec des équivoques, d'un bord ou de l'autre, qui ont semblé faire sa grandeur, mais qui l'ont vidé de sa capacité d'énergie", 
+		"contenu": "Je puis être triste de voir un grand parti, qu'il soit socialiste ou libéral, décevoir, dans la peur qu'il a de devoir un jour trancher avec des équivoques, d'un bord ou de l'autre, qui ont semblé faire sa grandeur, mais qui l'ont vidé de sa capacité d'énergie.", 
 		"source": "Emmaüs ou venger l'homme ... en aimant",
 		"date": "1987"
+	},
+	{
+		"id": "23",
+		"auteur": "Nicolas Berdaiev",
+		"contenu": "L'idée aristocratique exige la domination réelle des meilleurs ; la démocratie, la domination formelle de tous... Tout ordre vital est hiérarchique, il a son aristocratie. Seul un amas de décombres n'est pas hiérarchisé et aucune qualité aristocratique ne s'en dégage... Se reconnaître, se vouloir, se chercher toujours plus de devoirs est une attitude aristocratique. Réclamer des droits est une attitude commune. L'aristocratie n'est pas une classe, c'est un principe spirituel.", 
+		"source": "de l'Inégalité",
+		"date": "1918-1923"
 	}
 ]
