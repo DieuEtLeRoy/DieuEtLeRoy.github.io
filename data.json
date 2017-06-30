@@ -215,5 +215,19 @@
 		"contenu": "Le signe le plus évident de la décadence d'une société bourgeoise malade est le désir du nivellement accompagné du refus d'encourager l'effort", 
 		"source": "",
 		"date": ""
+	},
+	{
+		"id": "32",
+		"auteur": "Michel de Saint Pierre",
+		"contenu": "Une génération obsédée par la sécurité de l’emploi ne ferait pas avancer d’un pas l’humanité", 
+		"source": "Laurent",
+		"date": "1980"
+	},
+	{
+		"id": "33",
+		"auteur": "Hippocrate de Cos",
+		"contenu": "Je ne remettrai à personne du poison, si on m'en demande, ni ne prendrai l'initiative d'une pareille suggestion&#xA0;; semblablement, je ne remettrai à aucune femme un pessaire abortif.", 
+		"source": "Serment d'Hippocrate",
+		"date": " IVe siècle av. J.-C"
 	}
 ]
